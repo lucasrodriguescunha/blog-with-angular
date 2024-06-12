@@ -16,3 +16,9 @@
   margin-bottom: 15px;
   margin: 0 auto;
 }
+
+@media (max-width: 1080px) {
+  .container__menu-title h1 {
+    font-size: 100px;
+  }
+}
