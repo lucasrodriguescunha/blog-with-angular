@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'big-card',
@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
   templateUrl: './big-card.component.html',
   styleUrl: './big-card.component.css',
 })
-export class BigCardComponent {}
+export class BigCardComponent implements OnInit {
+  @Input()
+  photoCover: string = '';
+
+  @Input()
+  cardTitle: string = '';
+
+  @Input()
+  cardDescription: string = '';
+
+  ngOnInit(): void {
+    throw new Error('Método não implementado.');
+  }
+}
