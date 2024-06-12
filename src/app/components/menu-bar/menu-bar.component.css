@@ -1,0 +1,32 @@
+.container__menu-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-bar {
+  padding: 30px;
+}
+
+.menu-bar ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-bar ul {
+  list-style: none;
+}
+
+.menu-bar li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.menu-bar ul li a {
+  font-family: monospace, sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-bar ul li span {
+  color: white;
+}

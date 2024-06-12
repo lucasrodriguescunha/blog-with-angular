@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-big-card',
+  selector: 'big-card',
   standalone: true,
   imports: [],
   templateUrl: './big-card.component.html',
