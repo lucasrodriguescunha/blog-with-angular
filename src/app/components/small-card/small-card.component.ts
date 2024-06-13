@@ -7,17 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.css',
 })
-export class SmallCardComponent implements OnInit {
-  @Input()
-  photoCover: string = '';
-
-  @Input()
-  cardTitle: string = '';
-
-  @Input()
-  cardDescription: string = '';
-
-  ngOnInit(): void {
-    throw new Error('Método não implementado.');
-  }
+export class SmallCardComponent {
+  @Input() photoCover: string = '';
+  @Input() cardTitle: string = '';
+  @Input() cardDescription: string = '';
+  @Input() contentSpan: string = '';
 }
