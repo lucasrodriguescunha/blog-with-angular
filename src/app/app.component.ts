@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
 import { HomeComponent } from './pages/home/home.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { HomeComponent } from './pages/home/home.component';
     SmallCardComponent,
     MenuTitleComponent,
     HomeComponent,
+    MenuBarComponent,
   ],
 })
 export class AppComponent {
