@@ -2,9 +2,9 @@
 
 ### 📌 About
 
-This is a simple calculator made with Angular based on Layout on Dribbble
+This is an Angular blog project based on a Dribbble layout
 
-Esta é uma calculadora simples feita com Angular baseada em Layout no Dribbble
+Este é um projeto de blog Angular baseado em um layout Dribbble
 
 ![Status: em desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
@@ -15,7 +15,7 @@ Visual Studio Code
 Git
 GitHub
 Angular
-SCSS
+CSS
 JavaScript
 TypeScript
 Node.js
@@ -24,7 +24,7 @@ Node.js
 ### 📌 𝖨𝗇𝗌𝗍𝖺𝗅𝖺𝖼̧𝖺̃𝗈
 
 ```bash
-  git clone https://github.com/lucasrodriguescunha/calculator-with-angular
+  git clone https://github.com/lucasrodriguescunha/blog-with-angular
   ng serve
 ```
 
