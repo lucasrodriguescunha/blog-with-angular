@@ -11,10 +11,8 @@ import { dataFake } from '../../data/dataFake';
 })
 export class ContentComponent implements OnInit {
   @Input() photoCover: string = 'images/photo1.png';
-  @Input() cardTitle: string =
-    'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, Nullam rhoncus urna ligula, consectetur dapibus velit dic';
-  @Input() cardDescription: string =
-    'm rhoncus urna ligula, consectetur dapibus velit dictum a. Praesent urna leo, elementum vel arcu vel, suscipit dictum tortor. In hac habitasse platea dictumst. Donec fringilla ipsum in libero placerat mattis. Fusce cursus vitae dui vitae hendrerit. Pellentesque dapibus dolor sit amet diam viverra, et eleifend massa scelerisque. Ut lacinia condimentum neque nec vestibulum. m rhoncus urna ligula, consectetur dapibus velit dictum a. Praesent urna leo, elementum vel arcu vel, suscipit dictum tortor. In hac habitasse platea dictumst. Donec fringilla ipsum in libero placerat mattis. Fusce cursus vitae dui vitae hendrerit. Pellentesque dapibus dolor sit amet diam viverra, et eleifend massa scelerisque. Ut lacinia condimentum neque nec vestibulum.';
+  @Input() cardTitle: string = "";
+  @Input() cardDescription: string = "";
 
   constructor(private route: ActivatedRoute) {}
 
@@ -37,6 +35,7 @@ export class ContentComponent implements OnInit {
     if (result) {
       this.photoCover = result.photo;
       this.cardTitle = result.title;
+      
       this.cardDescription = result.description;
     }
   }

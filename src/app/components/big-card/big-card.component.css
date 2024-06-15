@@ -36,10 +36,13 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-@media (max-width: 1080px) {
+/* Dispositivos extrapequenos (telefones, 600px e inferiores) */
+@media (max-width: 600px) {
   .container__big-card {
-    display: flex;
+    margin: 0 auto;
     max-width: 300px;
+    height: auto;
+    margin-bottom: 30px;
   }
   .big-card__photo img {
     display: none;
@@ -49,6 +52,6 @@
     font-size: 20px;
   }
   .big-card__description p {
-    font-size: 10px;
+    font-size: 14px;
   }
 }

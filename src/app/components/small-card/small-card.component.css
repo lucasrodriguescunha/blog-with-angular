@@ -44,11 +44,21 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 600px) {
   .container__small-card {
-    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 250px;
   }
   .small-card__photo img {
     display: none;
+  }
+  .small-card__content h1 {
+    font-size: 14px;
+  }
+  .small-card__content p {
+    margin-bottom: 30px;
+    width: 160px;
   }
 }

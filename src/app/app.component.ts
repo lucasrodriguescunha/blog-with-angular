@@ -18,6 +18,4 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
     MenuBarComponent,
   ],
 })
-export class AppComponent {
-  title = 'blog-with-angular';
-}
+export class AppComponent {}
