@@ -1,27 +1,37 @@
-# BlogWithAngular
+# Explorer.dev
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+### 📌 About
 
-## Development server
+This is an Angular blog project based on a Dribbble layout
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este é um projeto de blog Angular baseado em um layout Dribbble
 
-## Code scaffolding
+![Status: em desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 📌 Ferramentas 𝗎𝗍𝗂𝗅𝗂𝗓𝖺𝖽𝖺s
 
-## Build
+```
+Visual Studio Code
+Git
+GitHub
+Angular
+CSS
+JavaScript
+TypeScript
+Node.js
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 📌 𝖨𝗇𝗌𝗍𝖺𝗅𝖺𝖼̧𝖺̃𝗈
 
-## Running unit tests
+```bash
+  git clone https://github.com/lucasrodriguescunha/blog-with-angular
+  ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 𝖠𝗎𝗍𝗈𝗋
 
-## Running end-to-end tests
+- [@lucasrodriguescunha](https://www.github.com/lucasrodriguescunha)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 𝖫𝗂𝖼𝖾𝗇𝖼̧𝖺
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[MIT](https://choosealicense.com/licenses/mit/)
