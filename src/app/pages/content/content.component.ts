@@ -1,13 +1,14 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
 import { dataFake } from '../../data/dataFake';
+import { MenuTitleComponent } from "../../components/menu-title/menu-title.component";
 
 @Component({
-  selector: 'app-content',
-  standalone: true,
-  imports: [RouterModule],
-  templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css'],
+    selector: 'app-content',
+    standalone: true,
+    templateUrl: './content.component.html',
+    styleUrls: ['./content.component.css'],
+    imports: [RouterModule, MenuTitleComponent]
 })
 export class ContentComponent implements OnInit {
   @Input() photoCover: string = 'images/photo1.png';
@@ -35,7 +36,7 @@ export class ContentComponent implements OnInit {
     if (result) {
       this.photoCover = result.photo;
       this.cardTitle = result.title;
-      
+
       this.cardDescription = result.description;
     }
   }
